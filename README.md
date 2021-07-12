@@ -2,6 +2,6 @@
 
 ## Notes
 
-[01 - Introductory HTML and JavaScript](https://github.com/jhuston5/jhuston5.github.io/blob/2a83fb0c8d2fc591b3a33131e890fc26b7adca9f/01%20-%20Introductory%20HTML%20and%20JavaScript)
+[01 - Introductory HTML and JavaScript](https://github.com/jhuston5/jhuston5.github.io/blob/0b7cd7c56cf0eae7d184a9532894b5722161faa1/01%20-%20Introductory%20HTML%20and%20JavaScript.md)
 
 ## 02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions
