@@ -9,9 +9,19 @@ Structure and Semantics - HTML is essentially creating an outline for a page, an
 CSS
 > The key to understanding how CSS works is to imagine that there is an invisible box around every HTML element.
 
-CSS can affect individual or grouped HTML elements by referencing a global element, or its specific class or id that one can assign within the HTML. 
+CSS can affect individual or grouped HTML elements by selecting a type element, or its specific class or id that one can assign within the HTML. 
 
-It Cascades because it reads what is lowest within the CSS. 
+It Cascades because it reads what is lowest within the CSS.
+
+#### Selectors 
+Last thing for me to remember in this section are the various selectors. Some of the ones that I am not as familiar with:
+
+- child selector
+- descendant selector
+- adjacent sibling selector
+- general sibling selector
+
+Essentially, what I am going to recall from here is that different combos of selectors can target very specific elements of the HTML. 
 
 Block vs Inline
 Still need to work on controlling my block and in-line elements. Block elements start on a new line, while in-line element continue on the same line. 
