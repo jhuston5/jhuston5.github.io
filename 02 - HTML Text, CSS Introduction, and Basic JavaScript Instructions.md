@@ -1,8 +1,20 @@
 From the Duckett HTML book:
 
 ## Chapter 2: “Text” (pp.40-61)
+There is lots of functionality in both HTML and CSS to make visual changes to text throughout a web page. I am still working on gaining experience to determine which tool to use for different situations, but I feel confident in being able to make some text formatting changes using various tags in HTML.
+
+Structure and Semantics - HTML is essentially creating an outline for a page, and then also has the functionality to place emphasis or guidance for the text.
+
 ## Chapter 10: Ch.10 “Introducing CSS” (pp.226-245)
-From the Duckett JS book:
+CSS
+> The key to understanding how CSS works is to imagine that there is an invisible box around every HTML element.
+
+CSS can affect individual or grouped HTML elements by referencing a global element, or its specific class or id that one can assign within the HTML. 
+
+It Cascades because it reads what is lowest within the CSS. 
+
+Block vs Inline
+Still need to work on controlling my block and in-line elements. Block elements start on a new line, while in-line element continue on the same line. 
 
 ## Chapter 2: “Basic JavaScript Instructions” (pp.53-84)
 
