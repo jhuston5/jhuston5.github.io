@@ -14,7 +14,7 @@ Variables and Data Types
 There's so much that one can do with Boolean values, and in my previous Javascript training I felt like I barely scratched the surface. *One of the things I really need to bear in mind while programming is to take the time to really understand certain tools. Otherwise, I won't be able to use my creativity to come up with appropriate solutions to programs.* Booleans are one of those tools where I need to develop a deeper understanding.
 
 Naming Variables
-1. ** Don't start with a number **
+1. **Don't start with a number**
 2. 
 
 ## Chapter 4: “Decisions and Loops” only up to the section on switch statements (pp.145-162)
