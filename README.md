@@ -4,4 +4,4 @@
 
 [01 - Introductory HTML and JavaScript](jhuston5.github.io./01 - Introductory HTML and JavaScript.md)
 
-[02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions](jhuston5.github.io./02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions.md)
+[02 - HTML Text, CSS Introduction, and Basic JavaScript Instructions](https://github.com/jhuston5/jhuston5.github.io-reading-notes/blob/main/02%20-%20HTML%20Text,%20CSS%20Introduction,%20and%20Basic%20JavaScript%20Instructions.md)
