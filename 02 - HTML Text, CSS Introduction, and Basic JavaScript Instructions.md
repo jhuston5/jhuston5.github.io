@@ -24,6 +24,8 @@ Naming Variables
 ## Chapter 4: “Decisions and Loops” only up to the section on switch statements (pp.145-162)
 
 ### Comparison Operators
+| Operator | Description |
+| ------- | ---------|
 | == | Equal To |
 | === | Strict Equal To |
 | != | Not Equal To |
