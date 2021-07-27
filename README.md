@@ -9,3 +9,7 @@
 [03 - Lists](Read-03.md)
 
 [04 - HTML Links, JS Functions, and Intro to CSS Layout](Read-04.md)
+
+[05 - HTML Images; CSS Color & Text](Read-05.md)
+
+[06 - Problem Domain, Objects, and the DOM](Read-06.md)
