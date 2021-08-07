@@ -17,3 +17,5 @@
 [08 - More CSS Layout](Read-08.md)
 
 [09 - Forms and JS Events](Read-09.md)
+
+[10 - Error Handling and Debugging](Read-10.md)

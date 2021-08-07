@@ -37,7 +37,7 @@ This one is pretty important for information flow - you can use either ***get***
 
 ## Chapter 14: “Lists, Tables & Forms” (pp.330-357)
 
-This sections is about using CSS to exercise greater control over specific elements of our lists, forms, etc. 
+This sections is about using CSS to exercise greater control over specific elements of our lists, forms, etc.
 
 Unordered and ordered lists can both use several built in characters to change their style.
 
@@ -101,7 +101,6 @@ When passing the arguments to a function that is being called by an event handle
 Utilize event listeners on parent elements vs child elements.
 
 Improves browser performance and easier to implement new child elements.
-
 
 ### Focus and Blur
 
