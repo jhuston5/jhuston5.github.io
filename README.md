@@ -13,3 +13,7 @@
 [05 - HTML Images; CSS Color & Text](Read-05.md)
 
 [06 - Problem Domain, Objects, and the DOM](Read-06.md)
+
+[08 - More CSS Layout](Read-08.md)
+
+[09 - Forms and JS Events](Read-09.md)
