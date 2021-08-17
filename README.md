@@ -19,3 +19,8 @@
 [09 - Forms and JS Events](Read-09.md)
 
 [10 - Error Handling and Debugging](Read-10.md)
+
+
+[11 - Audio, Video, Images](Read-11.md)
+
+[12 - Chart.js, Canvas](Read-12.md)
