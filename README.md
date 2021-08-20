@@ -24,3 +24,5 @@
 [11 - Audio, Video, Images](Read-11.md)
 
 [12 - Chart.js, Canvas](Read-12.md)
+
+[13 - Local Storage](Read-13.md)

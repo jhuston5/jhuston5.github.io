@@ -2,7 +2,7 @@
 
 ## [Chart.js API](https://www.webdesignerdepot.com/2013/11/easily-create-stunning-animated-charts-with-chart-js/)
 
-This is my first experience importing anything! I know there are lots of different things to import in Python, Javascript, and other languages. 
+This is my first experience importing anything! I know there are lots of different things to import in Python, Javascript, and other languages.
 
 ```Javascript
    <title>Chart.js demo</title>
