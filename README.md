@@ -20,7 +20,6 @@
 
 [10 - Error Handling and Debugging](Read-10.md)
 
-
 [11 - Audio, Video, Images](Read-11.md)
 
 [12 - Chart.js, Canvas](Read-12.md)
@@ -31,5 +30,4 @@
 
 ## Code 301 Reading Notes
 
-
-[1 - Introduction to React and Components]()
+[1 - Introduction to React and Components](301-read-01.md)
