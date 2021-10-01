@@ -36,4 +36,6 @@
 
 [3 - Passing Functions as Props](301-read-03.md)
 
+[5 - Putting It All Together](301-read-05.md)
+
 ## Code 401 - Advanced Software Development
