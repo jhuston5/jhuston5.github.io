@@ -38,4 +38,6 @@
 
 [5 - Putting It All Together](301-read-05.md)
 
+[6 - NODE.JS](301-read-06.md)
+
 ## Code 401 - Advanced Software Development
