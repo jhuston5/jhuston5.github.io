@@ -40,6 +40,8 @@
 
 [6 - NODE.JS](301-read-06.md)
 
-[8 - APIs](301-read-07.md)
+[8 - APIs](301-read-08.md)
+
+[9 - Functional Programming](301-read-09.md)
 
 ## Code 401 - Advanced Software Development
