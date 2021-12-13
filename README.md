@@ -51,3 +51,5 @@
 [3 - FileIO & Exceptions](401-read-03.md)
 
 [4 - Classes and Objects](401-read-04.md)
+
+[5 - Linked Lists](401-read-05.md)
