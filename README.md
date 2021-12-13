@@ -45,3 +45,9 @@
 [9 - Functional Programming](301-read-09.md)
 
 ## Code 401 - Advanced Software Development
+
+[2 - Testing and Modules](401-read-02.md)
+
+[3 - FileIO & Exceptions](401-read-03.md)
+
+[4 - Classes and Objects](401-read-04.md)
