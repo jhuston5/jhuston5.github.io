@@ -53,3 +53,5 @@
 [4 - Classes and Objects](401-read-04.md)
 
 [5 - Linked Lists](401-read-05.md)
+
+[6 - Random and Risk](401-read-06.md)
