@@ -55,3 +55,5 @@
 [5 - Linked Lists](401-read-05.md)
 
 [6 - Random and Risk](401-read-06.md)
+
+[7 - Scope](401-read-07.md)

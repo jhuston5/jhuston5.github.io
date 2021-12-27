@@ -125,5 +125,43 @@ def test_jedi_master_attacking():
   assert actual == expected
   ```
 
-```Python
+Python
 def test_sith_lord
+
+
+
+
+# Game of Greed AKA Farkle
+
+# Score a winning total of 10000 points with 6 6-sided dice
+
+# Python Standard Library includes Counter and .most_common()
+
+Counter can take a list and turn it into a dictionary with a count of each instance of a list item. Most common returns the item that is most often referenced.
+
+Reference website: https://pymotw.com/3/
+
+Steps to creating our Game of Greed
+poetry new game-of-greed
+mv README.rst README.md
+poetry add --dev black flake8
+
+move version_1 into tests
+poetry shell
+pytest
+
+# Parametrizing Tests
+# Decorator function to skip a test until you are ready to run it
+@pytest.mark.skip('Pending')
+
+create a new banker.py file
+create a Banker Class and set it to pass.
+
+create game_logic.py file
+create a GameLogic Class and set it to pass
+Add a static method called roll_dice()
+```Python
+def roll_dice(rolled_dice):
+  return (3,)
+  ```
+If you are sending in a tuple, make sure to add in the comma so python knows it is a tuple.
