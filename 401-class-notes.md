@@ -165,3 +165,59 @@ def roll_dice(rolled_dice):
   return (3,)
   ```
 If you are sending in a tuple, make sure to add in the comma so python knows it is a tuple.
+
+
+# Print to Input
+import builtins
+
+_print = builtins.print
+_input = builtins.input
+
+builtins.print = _input
+builtins.input = _print
+
+Can control what's going on in the terminal temporarily.
+Might need to override a dunder method or a dunder str with our own specific method.
+'
+def alter():
+  builtins.print = _input
+  builtins.input = _print
+
+def alter_back():
+  builtins.print = _print
+  builtins.input = _input
+
+if __name__ == '__main__':
+  alter()
+
+  alter_back()
+
+```Python
+from random import randint
+
+def default_roll():
+  return (randint(1,6), randint(1, 6))
+
+def play_dice(roller=default_roller):
+  while True:
+    print('Enter r to roll or q to quit')
+    choice = input('> )
+
+    if choice == 'q':
+      print('OK, bye')
+      break
+
+    else:
+      roll = roller()
+      roller_str = ''
+      for num in roll:
+        roller_str += str(num) + " "
+      print(f'*** {roller_str}***')
+
+if __name__ == '__main__':
+  def mock_roller():
+    # return (4, 3)
+    return rolls.pop(0) if rolls else default_roller()
+
+  play_dice(mock_riller)
+```
