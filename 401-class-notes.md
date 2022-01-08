@@ -221,3 +221,7 @@ if __name__ == '__main__':
 
   play_dice(mock_riller)
 ```
+
+
+Another Way to Do the Zip List Function
+

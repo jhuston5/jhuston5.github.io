@@ -59,3 +59,5 @@
 [7 - Scope](401-read-07.md)
 
 [8 - List Comprehensions in Python](401-read-08.md)
+
+[9 - Dunder Methods/Statistics - Probability](401-read-09.md)
