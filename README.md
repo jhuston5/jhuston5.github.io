@@ -61,3 +61,5 @@
 [8 - List Comprehensions in Python](401-read-08.md)
 
 [9 - Dunder Methods/Statistics - Probability](401-read-09.md)
+
+[10 - Stacks and Queues](401-read-10.md)
