@@ -63,3 +63,5 @@
 [9 - Dunder Methods/Statistics - Probability](401-read-09.md)
 
 [10 - Stacks and Queues](401-read-10.md)
+
+[11 - Jupyter Lab & Numpy](401-read-11.md)

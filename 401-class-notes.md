@@ -225,3 +225,8 @@ if __name__ == '__main__':
 
 Another Way to Do the Zip List Function
 
+Stacks and Queues
+Even though we can traverse pythonically, we won't
+
+How do we access something in the middle of a stack?
+ID the node you want to remove. Pop nodes off and put into a new stack until you hit the specified Node, then push the nodes from the new stack back onto the original stack.
