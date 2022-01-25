@@ -65,3 +65,9 @@
 [10 - Stacks and Queues](401-read-10.md)
 
 [11 - Jupyter Lab & Numpy](401-read-11.md)
+
+[12 - Pandas](401-read-12.md)
+
+[13 - Linear Regression](401-read-13.md)
+
+[14 - Matplotlib](401-read-14.md)

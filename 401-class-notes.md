@@ -230,3 +230,25 @@ Even though we can traverse pythonically, we won't
 
 How do we access something in the middle of a stack?
 ID the node you want to remove. Pop nodes off and put into a new stack until you hit the specified Node, then push the nodes from the new stack back onto the original stack.
+
+## Lab 11 Numpys
+
+Build a chessboard represented by a blue or red square.
+
+Chess board class with an 8x8 grid.
+
+add_red method
+add_blue method
+render method
+is_under_attack method: 
+
+Numpy is not written in Python, it is a library that Python uses.
+
+Java is a compiled language
+
+Python isn't necessarily the fastest, but using the power of other libraries and languages Python can be very efficient.
+
+
+create a new board
+drop in a red piece and blue piece
+call is Under Attack and assert. Do the assert in line.
