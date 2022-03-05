@@ -88,7 +88,6 @@ def counter_reset():
   SithLord.count = 0
   ```
 
-
 Tests
 
 Make it pass, then make sure it works for DRY code
@@ -116,7 +115,6 @@ def test_jedi_master_attacking():
   assert actual == expected
   ```
 
-
 ```Python
 def test_jedi_master_attacking():
   player = JediMaster()
@@ -128,9 +126,6 @@ def test_jedi_master_attacking():
 Python
 def test_sith_lord
 
-
-
-
 # Game of Greed AKA Farkle
 
 # Score a winning total of 10000 points with 6 6-sided dice
@@ -139,7 +134,7 @@ def test_sith_lord
 
 Counter can take a list and turn it into a dictionary with a count of each instance of a list item. Most common returns the item that is most often referenced.
 
-Reference website: https://pymotw.com/3/
+Reference website: <https://pymotw.com/3/>
 
 Steps to creating our Game of Greed
 poetry new game-of-greed
@@ -151,7 +146,9 @@ poetry shell
 pytest
 
 # Parametrizing Tests
+
 # Decorator function to skip a test until you are ready to run it
+
 @pytest.mark.skip('Pending')
 
 create a new banker.py file
@@ -160,32 +157,34 @@ create a Banker Class and set it to pass.
 create game_logic.py file
 create a GameLogic Class and set it to pass
 Add a static method called roll_dice()
+
 ```Python
 def roll_dice(rolled_dice):
   return (3,)
   ```
+
 If you are sending in a tuple, make sure to add in the comma so python knows it is a tuple.
 
-
 # Print to Input
+
 import builtins
 
 _print = builtins.print
 _input = builtins.input
 
 builtins.print = _input
-builtins.input = _print
+builtins.input =_print
 
 Can control what's going on in the terminal temporarily.
 Might need to override a dunder method or a dunder str with our own specific method.
 '
 def alter():
   builtins.print = _input
-  builtins.input = _print
+builtins.input =_print
 
 def alter_back():
   builtins.print = _print
-  builtins.input = _input
+builtins.input =_input
 
 if __name__ == '__main__':
   alter()
@@ -222,7 +221,6 @@ if __name__ == '__main__':
   play_dice(mock_riller)
 ```
 
-
 Another Way to Do the Zip List Function
 
 Stacks and Queues
@@ -240,7 +238,7 @@ Chess board class with an 8x8 grid.
 add_red method
 add_blue method
 render method
-is_under_attack method: 
+is_under_attack method:
 
 Numpy is not written in Python, it is a library that Python uses.
 
@@ -248,7 +246,54 @@ Java is a compiled language
 
 Python isn't necessarily the fastest, but using the power of other libraries and languages Python can be very efficient.
 
-
 create a new board
 drop in a red piece and blue piece
 call is Under Attack and assert. Do the assert in line.
+
+## Creating a Django App
+
+1. Add the application to the project
+2. Adjust your views
+3. Adjust your urls
+4. 
+
+Use a poetry init vs poetry new
+django-admin startproject django_things .
+python manage.py startapp things
+
+inside of things folder
+create a new file urls.py (similar to the other one)
+Use it to handle routes within our application
+urls.py
+from django.urls import path
+from .views import HomePageView
+urlpatterns = [
+  path('', HomePageView.as_view(), name='home'),
+
+]
+
+### views.py
+
+from django.views.generic import TemplateView
+
+class HomePageView(TemplateView):
+  template_name = 'home.html'
+
+## Templates folder
+
+Create templates folder
+Create two files
+touch templates/home.html
+touch templates/base.html
+
+in base.hmtl
+html5 emmett
+Inside <body>
+  {% block content %}
+  <!-- Content Goes Here -->
+  {% endblock content %}
+
+in home.html
+{% extends base.html %}
+
+Last thing: 
