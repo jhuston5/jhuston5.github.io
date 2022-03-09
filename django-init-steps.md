@@ -154,3 +154,7 @@ class ThingsTests(SimpleTestCase):
 ```
 
 - Now run python manage.py test in terminal and they should pass.
+
+python manage.py makemigration
+python manage.py migrate
+python manage.py createsuperuser
