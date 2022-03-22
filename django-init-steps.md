@@ -158,3 +158,82 @@ class ThingsTests(SimpleTestCase):
 python manage.py makemigration
 python manage.py migrate
 python manage.py createsuperuser
+
+### DOCKER
+
+Add to settings
+INSTALLED APPS add 'rest_framework',
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES' : [
+        'rest_framework.permissions.AllowAny',
+    ]
+}
+
+DOCKERFILE
+poetry export -f requirements.txt -o requirements.txt --without-hashes
+
+VENV
+pip freeze >> requirements.txt
+
+docker compose up
+docker compose down
+docker nuke - docker container stop $(docker container ls -a -q); docker system prune -a -f --volumes
+docker compose run web python manage.py migrate [Use this to migrate after installing postgres]
+
+### Permissions
+
+Add to urlpatterns:
+ path('api-auth', include('rest_framework.urls'))
+
+Change REST_Framework to 'rest_framework.permissions.IsAuthenticated',
+
+Create permissions.py folder in app
+
+from math import perm
+from rest_framework import permissions
+
+``` Python
+class IsOwnerOrReadOnly(permissions.BasePermission):
+  def has_object_permission(self, request, view, obj):
+      if request.method in permissions.SAFE_METHODS:
+        return True
+  
+      if obj.owner is None:
+        return True
+
+      return obj.owner == request.user
+```
+
+### POSTGRES
+
+ <!-- Updated -->
+ DATABASES = {
+     'default': {
+         'ENGINE': 'django.db.backends.postgresql',
+         'NAME': 'postgres',
+         'USER': 'postgres',
+         'PASSWORD': 'postgres',
+         'HOST': 'db',
+         'PORT': 5432,
+     }
+ }
+
+<!-- docker-compose.yml -->
+version: '3'
+
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+     depends_on:
+       - db
+   db:
+     image: postgres
+     environment:
+       - POSTGRES_DB=postgres
+       - POSTGRES_USER=postgres
+       - POSTGRES_PASSWORD=postgres
