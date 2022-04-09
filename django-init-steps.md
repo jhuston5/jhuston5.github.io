@@ -340,7 +340,7 @@ services:
        - POSTGRES_USER=postgres
        - POSTGRES_PASSWORD=postgres
 
-under depends on might need to add a links: -db
+- under depends on might need to add a links: -db
 poetry add psycopg2-binary
 Update the requirements.txt file
 poetry export -f requirements.txt -o requirements.txt --without-hashes
@@ -368,23 +368,23 @@ from rest_framework_simplejwt import views as jwt_views
 
 ### In App views.py import and change
 
-from rest_framework.permissions import IsAuthenticated
+- from rest_framework.permissions import IsAuthenticated
 change permission classes to IsAuthenticated
 
-Optional for troubleshooting
+- Optional for troubleshooting
 poetry add httpie
 http POST :8000/api/token username=admin password=admin
 
 ### Gunicorn
 
-Production level server
+- Production level server
 poetry add gunicorn
 
 ##### In docker-compose.yml change command to (changing to the project name as needed)
 
 gunicorn tracker_proj.wsgi:application --bind 0.0.0.0:8000 --workers 4
 
-Install Whitenoise and add to middleware in project settings.py
+- Install Whitenoise and add to middleware in project settings.py
 poetry add whitenoise
 
 MIDDLEWARE = [
@@ -398,10 +398,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-Also in settings.py add STATIC ROOT after STATIC_URL
+- Also in settings.py add STATIC ROOT after STATIC_URL
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
-In the terminal run
+- In the terminal run
 python manage.py collectstatic
 
 #### AWS Production
